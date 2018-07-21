@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1532139947 source:c:\users\david\desktop\producerconsumer\main.cpp
+	<iostream>
+	<mutex>
+	<condition_variable>
+	<cstdlib>
+	<ctime>
+	"ProducerThread.h"
+	"ConsumerThread.h"
+	"Common.h"
+
+1531785431 c:\users\david\desktop\producerconsumer\producerthread.h
+	<thread>
+	<mutex>
+	"common.h"
+
+1531792673 source:c:\users\david\desktop\producerconsumer\producerthread.cpp
+	"ProducerThread.h"
+	<iostream>
+	<thread>
+	<stdlib.h>
+	<time.h>
+
+1531792668 source:c:\users\david\desktop\producerconsumer\consumerthread.cpp
+	"ConsumerThread.h"
+	<iostream>
+	<thread>
+	<stdlib.h>
+	<time.h>
+
+1531785437 c:\users\david\desktop\producerconsumer\consumerthread.h
+	<thread>
+	<mutex>
+	"common.h"
+
+1531776632 c:\users\david\desktop\producerconsumer\synchronizeclass.h
+	<iostream>
+	<mutex>
+	<condition_variable>
+
+1531777929 c:\users\david\desktop\producerconsumer\synchronizemonitor.h
+	<iostream>
+	<mutex>
+	<condition_variable>
+
+1532139762 c:\users\david\desktop\producerconsumer\common.h
+	<iostream>
+	<queue>
+	<mutex>
+	<condition_variable>
+
+1532139829 source:c:\users\david\desktop\producerconsumer\common.cpp
+	"common.h"
+
